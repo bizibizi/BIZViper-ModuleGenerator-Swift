@@ -1,37 +1,37 @@
-# BIZViperModuleGenerator
+BIZViper-ModuleGenerator-Swift
 
 ![alt tag](https://github.com/bizibizi/BIZViperModuleGenerator/blob/master/Cover.jpg)
 ![alt tag](https://github.com/bizibizi/BIZViperModuleGenerator/blob/master/Structure.png)
 
 
-BIZViperModuleGenerator is a pack of files that will helps to create VIPER module faster.
+BIZViper-ModuleGenerator-Swift is a pack of files that will help to create VIPER module faster.
 
 
 # Installation
 
 ### Manually
- - Copy ```#ModuleName#``` folder to your project 
+ - Copy ```VIPERModuleName``` folder to your project 
 
 
 # Usage
 
-- Replace folder's name ```#ModuleName#``` to the name of your Viper module.
+- Replace folder's name ```VIPERModuleName``` with the name of your Viper module.
 ```
-#ModuleName#   --->   MyList 
+VIPERModuleName   --->   MyList 
 ```
 - Replace names of all files from that folder with the names of your Viper module.
 ```
-#ModuleName#Wireframe.h   --->   MyListWireframe.h
+VIPERWireframe.h   --->   MyListWireframe.h
 ```
 - Add that folder to your project
-- Go throught all added files with Xcode and replace ```#ModuleName#``` with name of your Viper module inside every file. 
+- Go throught all added files with Xcode and replace ```VIPER``` with name of your Viper module inside every file. 
 You can use group rename feature of Xcode: 
  - ```Alt``` + ```Cmd``` + ```F``` 
  - All matches will be highlighted. 
  - Click ```All``` button to rename it.
 ![alt tag](https://github.com/bizibizi/BIZViperModuleGenerator/blob/master/group%20rename%20sample.png)
 ```
-@interface #ModuleName#Wireframe   --->   @interface MyListWireframe
+class VIPERWireframe   --->   class MyListWireframe
 ``` 
 
 # Contact
