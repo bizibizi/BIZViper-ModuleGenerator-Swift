@@ -21,7 +21,7 @@ VIPERModuleName   --->   MyList
 ```
 - Replace names of all files from that folder with the names of your Viper module.
 ```
-VIPERWireframe.h   --->   MyListWireframe.h
+VIPERWireframe.swift   --->   MyListWireframe.swift
 ```
 - Add that folder to your project
 - Go throught all added files with Xcode and replace ```VIPER``` with name of your Viper module inside every file. 
@@ -29,7 +29,6 @@ You can use group rename feature of Xcode:
  - ```Alt``` + ```Cmd``` + ```F``` 
  - All matches will be highlighted. 
  - Click ```All``` button to rename it.
-![alt tag](https://github.com/bizibizi/BIZViperModuleGenerator/blob/master/group%20rename%20sample.png)
 ```
 class VIPERWireframe   --->   class MyListWireframe
 ``` 
